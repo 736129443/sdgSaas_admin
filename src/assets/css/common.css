@@ -1,0 +1,214 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font: 12px/1.5 'Microsoft YaHei', '宋体', Tahoma, Arial, sans-serif;
+    /* color: #555; */
+    background-color: #F2F2F2;
+}
+
+em, i {
+    font-style: normal;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+fieldset,img {
+    border:none;
+}
+
+span{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+ol,ul,li {
+    list-style:none;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%; font-weight:normal;
+}
+
+sup,sub{
+    vertical-align:baseline;
+}
+
+/* 元素转换 */
+.block { display: block;}
+.iblock{ display: inline-block;}
+
+/* 文字排版 */
+.f12 { font-size:12px;}
+.f14 { font-size:14px;}
+.f16 { font-size:16px;}
+.f18 { font-size:18px;}
+.f20 { font-size:20px;}
+.fb { font-weight:bold;}
+.fn { font-weight:normal;}
+.lh150 { line-height:150%;}
+.lh180 { line-height:180%;}
+.lh200 { line-height:200%;}
+.unl { text-decoration:underline;}
+.no_unl { text-decoration:none;}
+
+/* 定位 */
+.tl { text-align:left;}
+.tc { text-align:center;}
+.tr { text-align:right;}
+.bc { margin:0 auto}
+.fl { float:left;}
+.fr { float:right;}
+.cb { clear:both;}
+.cl { clear:left;}
+.cr { clear:right;}
+.vm { vertical-align:middle;}
+.vt { vertical-align:top;}
+.pr { position:relative;}
+.pa { position:absolute;}
+.pf { position:fixed;}
+.abs-right { position:absolute; right:0;}
+.hidden { visibility: hidden;}
+.none { display:none;}
+
+/* 长度高度 */
+.w { width:100%;}
+/*.w25 { width:25%;}*/
+.w50 { width:50%;}
+/*.w75 { width:75%;}*/
+.h { height:100%;}
+
+/* 边距 */
+.m10 { margin:10px;}
+.m15 { margin:15px;}
+.m20 { margin:20px;}
+.m25 { margin:25px;}
+.m30 { margin:30px;}
+
+.mt5 { margin-top:5px;}
+.mt10 { margin-top:10px;}
+.mt15 { margin-top:15px;}
+.mt20 { margin-top:20px;}
+.mt25 { margin-top:25px;}
+.mt30 { margin-top:30px;}
+
+
+.mb5 { margin-bottom:5px;}
+.mb10 { margin-bottom:10px;}
+.mb15 { margin-bottom:15px;}
+.mb20 { margin-bottom:20px;}
+.mb25 { margin-bottom:25px;}
+.mb30 { margin-bottom:30px;}
+
+.ml5 { margin-left:5px;}
+.ml10 { margin-left:10px;}
+.ml15 { margin-left:15px;}
+.ml20 { margin-left:20px;}
+.ml25 { margin-left:25px;}
+.ml30 { margin-left:30px;}
+
+
+.mr5 { margin-right:5px;}
+.mr10 { margin-right:10px;}
+.mr15 { margin-right:15px;}
+.mr20 { margin-right:20px;}
+.mr25 { margin-right:25px;}
+.mr30 { margin-right:30px;}
+
+
+.p5 { padding:5px;}
+.p10 { padding:10px;}
+.p15 { padding:15px;}
+.p20 { padding:20px;}
+.p25 { padding:25px;}
+.p30 { padding:30px;}
+
+.pt5 { padding-top:5px;}
+.pt10 { padding-top:10px;}
+.pt15 { padding-top:15px;}
+.pt20 { padding-top:20px;}
+.pt25 { padding-top:25px;}
+.pt30 { padding-top:30px;}
+
+.pb5 { padding-bottom:5px;}
+.pb10 { padding-bottom:10px;}
+.pb15 { padding-bottom:15px;}
+.pb20 { padding-bottom:20px;}
+.pb25 { padding-bottom:25px;}
+.pb30 { padding-bottom:30px;}
+
+
+.pl5 { padding-left:5px;}
+.pl10 { padding-left:10px;}
+.pl15 { padding-left:15px;}
+.pl20 { padding-left:20px;}
+.pl25 { padding-left:25px;}
+.pl30 { padding-left:30px;}
+
+
+.pr5 { padding-right:5px;}
+.pr10 { padding-right:10px;}
+.pr15 { padding-right:15px;}
+.pr20 { padding-right:20px;}
+.pr25 { padding-right:25px;}
+.pr30 { padding-right:30px;}
+
+
+/* 清除浮动 */
+.clear{
+    zoom:1;
+}
+.clear:after{
+    content:'';
+    display:block;
+    clear:both;
+    height:0;
+    overflow:hidden;
+    visibility:hidden;
+}
+
+.common-content {
+    width:100%;
+}
+
+.common-content-detail {
+    margin:20px;
+    border-top: 1px solid #000000;
+    padding:20px 20px 0 20px ;
+}
+
+/*谷歌苹果浏览器滚动条美化*/
+::-webkit-scrollbar {
+    width: 24px;
+    height:24px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    border: 6px solid transparent;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2) inset;
+    width: 22px;
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 20px;
+    background-clip: content-box;
+    box-shadow: 0 0 0 6px rgba(180,180,180,0.4) inset;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
